@@ -1,0 +1,64 @@
+/* General styles */
+
+/* Cookie popup container */
+.cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    background: #000; /* Fondo negro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Cookie icon at the top */
+.cookie-popup i {
+    font-size: 60px; /* Cambia el tamaño según lo que necesites */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+
+/* Text inside the popup */
+.cookie-popup p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    color: #fff;
+}
+
+/* "Accept" button */
+.cookie-popup button {
+    background: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.cookie-popup button:hover {
+    background: #ddd; /* Fondo gris claro */
+}
+
+/* Close icon */
+.cookie-popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
